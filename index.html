@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实验网页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>发音匹配实验</h1>
+    <p>请点击“播放初始发音”按钮，听取参考音频。然后通过调整滑块选择一个匹配的发音。</p>
+    
+    <!-- 初始音频播放按钮 -->
+    <button id="play-initial">播放初始发音</button>
+    
+    <!-- 滑块 -->
+    <div class="slider-container">
+        <label for="audio-slider">选择发音匹配:</label>
+        <input type="range" id="audio-slider" min="1" max="10" step="1" value="1">
+    </div>
+
+    <!-- 脚本文件 -->
+    <script src="script.js"></script>
+</body>
+</html>
